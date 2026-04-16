@@ -1,0 +1,12 @@
+
+DirectoryIndex index.php
+AddType application/x-httpd-php .php
+
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^api/?$ api/index.php [L]
+RewriteRule ^api/(.*)$ api/index.php [L,QSA]
+</IfModule>

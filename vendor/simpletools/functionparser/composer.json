@@ -1,0 +1,29 @@
+{
+    "name": "simpletools/functionparser",
+    "type": "library",
+    "description": "Function parser for PHP functions, methods, and closures",
+    "keywords": ["function", "closure", "parser", "tokenizer"],
+    "homepage": "https://github.com/getsimpletools/FunctionParser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Lindblom",
+            "role": "Creator"
+        },
+        {
+            "name": "Ciaran Moore",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": { "FunctionParser\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
